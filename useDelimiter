@@ -1,0 +1,14 @@
+
+
+import java.util.Scanner;
+
+public class LDP7252 {
+	  public static void main(String[] args) {
+		    Scanner scanner = new Scanner(System.in); // instancia um scanner conectado à entrada padrão (linha de comando)
+		    scanner.useDelimiter(","); // altera o delimitador para ","
+		    String s = scanner.next(); // lê até o próximo delimitador; enquanto o usuário não digitar o delimitador, continua adicionando em "s"; a string em "s" só contém caracteres até antes do delimitador
+		    System.out.println(s); // imprime a string armazenada em "s"
+		    scanner.close(); // fecha o scanner
+		}
+
+}
